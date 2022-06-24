@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.heder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+}
+.heder2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+.logo img {
+  height: 85px;
+  width: 85px;
+  margin: 20px 0 0 30px;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.home a {
+  text-decoration: none;
+  margin-top: 14px;
+}
+.home p a {
+  color: red;
+}
+button {
+  margin-top: 10px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 15px 50px;
+  border-radius: 25px;
+  background-image: linear-gradient(45deg, tomato, rgba(145, 138, 138, 0.603));
+}
+.photo {
+  border: 1px solid grey;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.photo img {
+  height: 100%;
+  width: 100%;
+}
+.foter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+}
+.foter img {
+  height: 20px;
+}
